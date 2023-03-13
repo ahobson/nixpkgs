@@ -17,7 +17,7 @@
 with python3Packages;
 buildPythonApplication rec {
   pname = "pre-commit";
-  version = "3.1.0";
+  version = "3.1.1";
   format = "setuptools";
 
   disabled = pythonOlder "3.8";
